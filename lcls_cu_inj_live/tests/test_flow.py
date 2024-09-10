@@ -1,4 +1,4 @@
-from lcls_cu_inj_live.flow import flow, output_variables
+from lcls_cu_inj_live.flow import flow, OUTPUT_VARIABLES
 
 
 def test_flow_execution():
