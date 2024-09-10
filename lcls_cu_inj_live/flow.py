@@ -137,11 +137,11 @@ def evaluate(formatted_input_vars, settings=None):
 
 # DEFINE TASK FOR SAVING DB RESULT
 # See docs: https://slaclab.github.io/lume-services/api/tasks/#lume_services.tasks.db.SaveDBResult
-save_db_result_task = SaveDBResult(timeout=30)
+#save_db_result_task = SaveDBResult(timeout=30)
 
 # DEFINE TASK FOR SAVING FILE
 # See docs: https://slaclab.github.io/lume-services/api/tasks/#lume_services.tasks.file.SaveFile
-save_file_task = SaveFile(timeout=30)
+#save_file_task = SaveFile(timeout=30)
 
 # If your model requires loading a file object, you use the task pre-packaged
 # with LUME-services:
